@@ -1,0 +1,113 @@
+<span style>="font-family: verdana, geneva, sans-serif;">/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+}
+.wrapper{
+    background: #fff;
+    width: 580px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+.cname{
+    width: 170px;
+    margin: auto;
+    padding: auto;
+}
+.members {
+    display: flex;
+    flex-direction: column;
+}
+
+.ceo{
+    margin-left: 40px;
+    justify-content: space-around;
+}
+
+.sales{
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.ceo, .sales {
+    display: flex;
+}
+
+.team-mem {
+    margin-right: 20px; /* Adjust the value as needed for your desired spacing */
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #5d7cb2;
+    box-shadow: 9px 4px 8px rgba(85, 91, 176, 0.4);
+    color: white;
+    border-width: 0cqmax;
+    font-size: medium;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+h2 {
+    text-align: center;
+    border-bottom: 2px solid #D5A3FF; /* Add 'solid' to specify a solid border */
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 9px 4px 8px rgba(85, 91, 176, 0.4);
+    width: 300px;
+    margin: 20px auto; /* 'auto' for margin will center the element horizontally */
+    background-color: #5d7cb2;
+    font-size: medium;
+}
+
+.members{
+    display: flex;
+}
+.team-mem{
+    
+    margin: 8px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.members2{
+    display: flex;
+}
+.team-mem1{
+    margin: 10px;
+}
+.members3{
+    display: flex;
+}
+.team-mem2{
+    margin: 10px;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    margin: 7px;
+}
+h4{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+}
+</span>

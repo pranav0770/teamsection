@@ -1,0 +1,37 @@
+<span style>="font-family: verdana, geneva, sans-serif;">/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+}
+.cname{
+ text-align: center;
+padding: 10px;
+border-radius: 10px;
+background-color: #5d7cb2;
+box-shadow: 9px 4px 8px rgba(85, 91, 176, 0.4);
+color: white;
+border-width: 0cqmax;
+font-size: medium;
+}
+
+.company-desc{
+    justify-content: center;
+    padding: 20px;
+}
+
+.photo1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
